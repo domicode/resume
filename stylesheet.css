@@ -1,0 +1,301 @@
+/* header */
+
+#header {
+	z-index: 2;
+	position: fixed;
+	width: 98.9%;
+	height: 50px;
+	background-color: #3e526d;
+	/* background: linear-gradient(#668284, #FFFFFF); */
+	border-radius: 10px 10px 0px 0px;
+	margin-bottom: 10px;
+	top: 0;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+#header h1 {
+	margin-top: 5px;
+	margin-left: 10px;
+	float: left;
+	color: #1f2a38;
+	text-shadow: 1.5px 1.5px 1.5px grey;
+}
+
+#socialmedia {
+	float: right;
+	margin-right: 10px;
+}
+
+
+img {
+	z-index: 1;
+	width: 40px;
+	height: 40px;
+	margin-right: 0px;
+	margin-top: -10px;
+}
+
+
+
+#header h3 {
+	padding-left: 15px;
+	margin-bottom: -10px;
+}
+
+#navigation {
+	z-index: 2;
+	float: left;
+	position: fixed;
+	background: #404853;
+  	/*background: linear-gradient(#687587, #404853);*/
+  	background: linear-gradient(#3e526d, #404853);
+	clear: both;
+	width: 98.9%;
+	height: 38px;
+	background-color: #668284;
+	margin-left: -0px;
+	margin-top: 50px;
+	border-radius: 0px 0 0px 0;
+/*	border: 2px solid #3F3F3F;*/
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+#navigation ul {
+  list-style: none;
+  margin: 0;
+  margin-left: -30px;
+}
+
+#navigation li {
+	float: left;
+	list-style-type: none;
+}
+
+#navigation a {
+  background: #404853;
+  background: linear-gradient(#3e526d, #404853);
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  display: block;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 0 20px;
+  line-height: 38px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#navigation a:hover {
+  background: #3e526d;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.4);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  color: #d0d2d5;
+}
+
+#navigation li:first-child a {
+  border-left: none;
+  border-radius: 0px 0 0 0px;
+} 
+
+
+#navigation li:last-child a {
+  border-right: none;
+  border-radius: 0 0px 0px 0;
+}
+
+
+
+
+#quicklinks {
+	z-index: 2;
+	float: right;
+	width: 15%;
+	height: 200px;
+	background-color: #668284;
+	margin-right: 0%;
+	margin-top: 10px;
+	border-radius: 20px 0 20px 0;
+	border: 8px solid darkblue;
+}
+
+
+/* summary page */
+
+
+h1 {
+	font-size: 2em;
+	font-family: Helvetica;
+	position: relative;
+	float: left;
+}
+
+
+h2 {
+	font-size: 1.5em;
+	font-family: Arial;
+}
+
+
+ul {
+	position: relative;
+}
+
+
+.content {
+	padding-left: 30px;
+	float: left;
+	position: relative;
+	height: 100%;
+	padding-top: 87px;
+	width: 97.8%;
+	border-radius: 10px 10px 0px 0px;
+}
+
+#summary {
+	background-color: #c1f5ff;
+}
+
+#summary table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: none;
+	width: 80%;
+}
+
+#summary td {
+	border: none;
+	border-bottom: 1px dotted black;
+}
+
+#summary th {
+	border: none;
+	border-bottom: 1px dotted black;
+	width: 220px;
+	text-align: left;
+	vertical-align: top;
+}
+
+#summary tr {
+	margin-bottom: 10px;
+}
+
+#summary_work {
+	height: 200px;
+	width: 300px;
+	background-color: blue;
+	float: left;
+	border-radius: 8px;
+}
+
+#summary_education {
+	height: 200px;
+	width: 300px;
+	background-color: blue;
+	float: right;
+	margin-right: 20px;
+	border-radius: 8px;
+}
+
+
+
+/* css main content from here */
+
+
+#personalinfo {
+	background-color: #e3ffe8;
+}
+
+#workingexperience {
+	background-color: #ffe5e3;
+}
+
+#education {
+	background-color: #fff2e3;
+}
+
+#languages {
+	background-color: #ffe4f9;
+}
+
+#extraactivities {
+	background-color: #e5e3ff;
+}
+
+#hobbies {
+	background-color: #faffe4;
+}
+
+
+
+.jobtitle {
+	font-weight: bold;
+	margin-bottom: -15px; 
+}
+
+
+
+
+/* footer */
+
+#filler {
+	height: 1000px;
+	float: left;
+}
+
+#footer {
+	position: fixed;
+	z-index: 2;
+	clear: both;
+	width: 98.9%;
+	background-color: #3e526d;
+	background: linear-gradient(#3e526d, #404853);
+	border-radius: 0px 0px 10px 10px;
+	padding-top: 10px;
+	height: 25px;
+	bottom: 0;
+}
+
+#footer p {
+	padding-right: 10px;
+	margin-top: -1px;
+	text-align: right;
+	color: #1f2a38;
+}
+
+/* general */
+
+* {
+	font-family: Arial;
+	font-size: 1em;
+}
+
+td {
+	padding: 10px;
+	border: 2px solid white;
+}
+
+th {
+	padding: 10px;
+	border: 2px solid white;
+}
+
+#languages td:first-child {
+	font-weight: bold;
+}
+
+table {
+	border-collapse: separate;
+  	border-spacing: 2px;
+  	border: 2px solid white;
+}
+
+html, body {
+	height: 100%;
+	overflow: auto;
+}
+
+
+

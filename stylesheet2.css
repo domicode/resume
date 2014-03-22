@@ -1,0 +1,418 @@
+/* header */
+
+#header {
+	z-index: 2;
+	position: fixed;
+	width: 96%;
+	height: 50px;
+	background-color: #3e526d;
+	/* background: linear-gradient(#668284, #FFFFFF); */
+	border-radius: 10px 10px 0px 0px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	top: 0;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+#header h1 {
+	margin-top: 5px;
+	margin-left: 10px;
+	float: left;
+	color: #1f2a38;
+	text-shadow: 1.5px 1.5px 1.5px grey;
+}
+
+#socialmedia {
+	float: right;
+	margin-right: 10px;
+}
+
+
+img {
+	z-index: 1;
+	width: 40px;
+	height: 40px;
+	margin-right: 0px;
+	margin-top: -10px;
+}
+
+
+
+#header h3 {
+	padding-left: 15px;
+	margin-bottom: -10px;
+}
+
+#navigation {
+	z-index: 2;
+	float: left;
+	position: fixed;
+	background: #404853;
+  	/*background: linear-gradient(#687587, #404853);*/
+  	background: linear-gradient(#3e526d, #404853);
+	clear: both;
+	width: 96%;
+	height: 38px;
+	background-color: #668284;
+	margin-left: -0px;
+	margin-top: 50px;
+	border-radius: 0px 0 0px 0;
+/*	border: 2px solid #3F3F3F;*/
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+#navigation ul {
+  list-style: none;
+  margin: 0;
+  margin-left: -30px;
+}
+
+#navigation li {
+	float: left;
+	list-style-type: none;
+}
+
+#navigation a {
+  background: #404853;
+  background: linear-gradient(#3e526d, #404853);
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  display: block;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 0 20px;
+  line-height: 38px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#navigation a:hover {
+  background: #3e526d;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.4);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  color: #d0d2d5;
+}
+
+#navigation li:first-child a {
+  border-left: none;
+  border-radius: 0px 0 0 0px;
+} 
+
+
+#navigation li:last-child a {
+  border-right: none;
+  border-radius: 0 0px 0px 0;
+}
+
+
+/* summary page */
+
+
+#summary {
+	background-image: url(DSC_6314.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 100px;
+	margin-top: -10px;
+	text-decoration: none;
+	height: 100%;
+	width: 100%;
+}
+
+#summary_center {
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+}
+
+#summary a {
+	height: auto;
+	width: 29%;
+	border-radius: 8px;
+	outline: 0px solid lightgrey;
+	float: left; 
+	position: relative;
+	margin-right: auto;
+	margin-left: 2%;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	color: black;
+	text-decoration: none;
+}
+
+
+#summary_personal {
+	background-color: rgba(217, 255, 230, 0.30);
+}
+
+#summary_personal:hover {
+	background-color: rgba(217, 255, 230, 1);
+}
+
+#summary_work {
+	background-color: rgba(217, 242, 255, 0.3);
+}
+
+#summary_work:hover {
+	background-color: rgba(217, 242, 255, 1);
+}
+
+#summary_education {
+	background-color: rgba(255, 239, 217, 0.3);
+}
+#summary_education:hover {
+	background-color: rgba(255, 239, 217, 1);
+}
+
+#summary_languages {
+	background-color: rgba(223, 217, 255, 0.3);
+}
+#summary_languages:hover {
+	background-color: rgba(223, 217, 255, 1);
+}
+
+#summary_extra {
+	background-color: rgba(255, 217, 249, 0.3);
+}
+#summary_extra:hover {
+	background-color: rgba(255, 217, 249, 1);
+}
+
+#summary_hobbies {
+	background-color: rgba(255, 220, 217, 0.3);
+}
+#summary_hobbies:hover {
+	background-color: rgba(255, 220, 217, 1);
+}
+
+#summary ul {
+	margin-top: -10px;
+}
+
+#summary li {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-bottom: 0px solid black;
+	margin-bottom: 4px;
+	padding: 2px 5px 2px 5px;
+	width: 85%;
+	float: left;
+	list-style-type: none;
+	margin-left: -40px;
+	border-radius: 4px;
+}
+
+#summary li:hover {
+	background-color: rgba(255, 255, 255, 1);
+}
+
+#summary li:first-child {
+	background-color: rgba(218, 255, 165, .5);
+}
+
+#summary li:nth-child(2) {
+	background-color: rgba(165, 218, 255, .5);
+}
+
+#summary li:last-child {
+	background-color: rgba(203, 165, 255, .5);
+}
+
+#summary li a {
+	width: auto;
+	clear: all;
+}
+
+#summary img {
+	float: right;
+	margin-top: -40px;
+}
+
+button {
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	float: right;
+	font-size: 25px;
+	color: black;
+	background: none;
+	border: 1px solid black;
+	border-radius: 8px;
+}
+
+/* css main content from here */
+
+
+.content {
+	float: left;
+	position: relative;
+	height: 100%;
+	padding-top: 87px;
+	width: 100%;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.content h3 {
+	margin-left: 25px;
+	margin-bottom: -10px;
+}
+
+.content table {
+	margin-left: 25px;
+}
+
+.content p {
+	margin-left: 25px;
+	margin-right: 100px;
+	margin-bottom: 40px;
+}
+
+.content tr:hover {
+	background-color: rgba(0, 204, 0, 0.3);
+}
+
+.content td:hover {
+	background-color: rgba(0, 204, 0, 0.5);
+}
+
+.content ul {
+	margin-left: 10px;
+}
+
+#personalinfo {
+	background-color: rgba(217, 255, 230, 1);
+}
+
+#workingexperience {
+	background-color: rgba(217, 242, 255, 1);
+}
+
+#education {
+	background-color: rgba(255, 239, 217, 1);
+}
+
+#languages {
+	background-color: rgba(223, 217, 255, 1);
+}
+
+#extraactivities {
+	background-color: rgba(255, 217, 249, 1);
+}
+
+#hobbies {
+	background-color: rgba(255, 220, 217, 1);
+}
+
+#hobbies img {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-left: 20px;
+}
+
+
+.jobtitle {
+	font-weight: bold;
+	margin-bottom: -15px; 
+}
+
+
+
+
+/* footer */
+
+
+#footer {
+	position: fixed;
+	z-index: 2;
+	clear: both;
+	width: 96%;
+	background-color: #3e526d;
+	background: linear-gradient(#3e526d, #404853);
+	border-radius: 0px 0px 0px 0px;
+	padding-top: 10px;
+	height: 25px;
+	bottom: 0;
+}
+
+#footer p {
+	padding-right: 10px;
+	padding-left: 15px;
+	margin-top: -1px;
+	color: #1f2a38;
+}
+
+#footer a{
+	color: white;
+	text-align: left;
+	text-decoration: none;
+	font-size: 14px;
+  	font-weight: bold;
+  	float: right;
+
+}
+
+#footer span {
+	float: left;
+	font-weight: normal;
+	color: black;
+}
+
+
+/* general */
+
+* {
+	font-family: Arial;
+	font-size: 1em;
+}
+
+td {
+	padding: 10px;
+	border: 2px solid white;
+}
+
+th {
+	padding: 10px;
+	border: 2px solid white;
+}
+
+h1 {
+	font-size: 2em;
+	font-family: Helvetica;
+	position: relative;
+	float: left;
+}
+
+
+h2 {
+	font-size: 1.5em;
+	font-family: Arial;
+	padding-left: 25px;
+}
+
+
+ul {
+	position: relative;
+}
+
+
+#languages td:first-child {
+	font-weight: bold;
+}
+
+table {
+	border-collapse: separate;
+  	border-spacing: 2px;
+  	border: 2px solid white;
+}
+
+html, body {
+	height: 100%;
+	width: 98%;
+	overflow: auto;
+}
+
+
+
