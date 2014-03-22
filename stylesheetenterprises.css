@@ -1,0 +1,95 @@
+#back {
+	float: left;
+	margin-top: 6px;
+}
+
+#forward {
+	float: left;
+	margin-top: 6px;
+}
+
+p {
+	float: left;
+	position: relative;
+	font-size: 40px;
+	color: white;
+	font-family: Century Gothic;
+}
+
+button {
+	height: 40px;
+	width: 40px;
+	margin: 0px 10px 0px 10px;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 1px solid black;
+	color: white;
+	border-radius: 8px;
+}
+
+button:hover {
+	background-color: rgba(255, 255, 255, 1);
+	color: black;
+}
+
+
+#answer button {
+	height: 40px;
+	width: 40px;
+	background-color: rgba(0, 0, 0, 0.1);
+	border: 1px solid black;
+	color: black;
+	border-radius: 8px;
+}
+
+#answer button:hover {
+	background-color: rgba(0, 0, 0, 1);
+	color: white;
+}
+
+#question {
+	margin-top: 25%;
+	margin-right: 25px;
+	float: right;
+}
+
+#first {background-color: black;
+	width: 100%;
+	height: 100%;
+	margin-left: -10px;
+	padding-top: -20px;
+}
+
+#second {
+	width: 100%;
+	height: 100%;
+	background-color: white; 
+	margin-top: -10px;
+	margin-left: -10px;
+}
+
+#answer {
+	float: right;
+	margin-top: 25%;
+	margin-right: 25px;
+	color: black;
+}
+
+#answer p {
+	color: black;
+}
+
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+span {
+	float: left;
+}
